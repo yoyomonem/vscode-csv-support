@@ -13,7 +13,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.csv",
-				"match": "\\b(if|while|for|return)\\b"
+				"match": "\\b(,)\\b"
 			}]
 		},
 		"strings": {
