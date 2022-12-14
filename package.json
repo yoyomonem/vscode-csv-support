@@ -1,0 +1,25 @@
+{
+  "name": "vscode-csv-support",
+  "displayName": "CSV Files for Visual Studio Code",
+  "description": "Provides CSV language support for VS Code. Also, it's a VS Code extension test.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "csv",
+      "aliases": ["CSV Spreadsheet", "csv"],
+      "extensions": ["csv"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "csv",
+      "scopeName": "source.csv",
+      "path": "./syntaxes/csv.tmLanguage.json"
+    }]
+  }
+}

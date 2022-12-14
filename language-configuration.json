@@ -1,0 +1,13 @@
+{
+    "autoClosingPairs": [
+        { "open": "'", "close": "'", "notIn": ["string", "comment"] },
+        { "open": "\"", "close": "\"", "notIn": ["string"] }
+    ],
+    "autoCloseBefore": "\n\t",
+    "folding": {
+        "markers": {
+            "start": ",",
+            "end": ","
+        }
+    }
+}
